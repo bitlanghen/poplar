@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_cn_edu_pku_poplar_domain_SsrLocation" object="${ssrlocation}" path="/ssrlocations" z="hHz6ntzmbeOf/yQT+QWATFRZaQM=">
+        <field:display field="uniGeneId" id="s_cn_edu_pku_poplar_domain_SsrLocation_uniGeneId" object="${ssrlocation}" z="7e0/tFJ885jR4AIj7G3YH0fpuwM="/>
+        <field:display field="ssr" id="s_cn_edu_pku_poplar_domain_SsrLocation_ssr" object="${ssrlocation}" z="vY9xBi4ghvpEoH/Tj+9dUuAQoc8="/>
+        <field:display field="locationInScaffold" id="s_cn_edu_pku_poplar_domain_SsrLocation_locationInScaffold" object="${ssrlocation}" z="2xAz7f9FlpKrFZGmWozs5eHNSLk="/>
+        <field:display field="cdsOrUtr" id="s_cn_edu_pku_poplar_domain_SsrLocation_cdsOrUtr" object="${ssrlocation}" z="VuKgHD+1sPsJA7btO4mXjSgDjaE="/>
+        <field:display field="strand" id="s_cn_edu_pku_poplar_domain_SsrLocation_strand" object="${ssrlocation}" z="6aq5zwzYEbi7N8/4301yV13uAiQ="/>
+        <field:display field="locationGene" id="s_cn_edu_pku_poplar_domain_SsrLocation_locationGene" object="${ssrlocation}" z="UpZiSy3hT1WCbqSufh3QOJr6ghg="/>
+        <field:display field="pacId" id="s_cn_edu_pku_poplar_domain_SsrLocation_pacId" object="${ssrlocation}" z="XV56nzGUEvb9AjZyazllxFNbme8="/>
+        <field:display field="scaffold" id="s_cn_edu_pku_poplar_domain_SsrLocation_scaffold" object="${ssrlocation}" z="9IiaBopmE2GucyRT5R0m4teZESU="/>
+        <field:display field="seqOfScaffold" id="s_cn_edu_pku_poplar_domain_SsrLocation_seqOfScaffold" object="${ssrlocation}" z="25kF4NLwrAeYeb3xTTrU9Ub7gZg="/>
+        <field:display field="identify" id="s_cn_edu_pku_poplar_domain_SsrLocation_identify" object="${ssrlocation}" z="8TsJ0h1fd2fHpEDNkXx48BsE6pw="/>
+    </page:show>
+</div>

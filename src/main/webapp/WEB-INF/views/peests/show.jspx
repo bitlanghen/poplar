@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_cn_edu_pku_poplar_domain_PeEst" object="${peest}" path="/peests" z="WpXAoBCSWARimV3ZVqhKuuyQnKE=">
+        <field:display field="gene_id" id="s_cn_edu_pku_poplar_domain_PeEst_gene_id" object="${peest}" z="nz453ygPSH8B6HdRQDfO1K2y4IU="/>
+        <field:display field="ssr_nr" id="s_cn_edu_pku_poplar_domain_PeEst_ssr_nr" object="${peest}" z="XzGW7fUDqIZVPiL5D9UmH9Xx5Yc="/>
+        <field:display field="ssr_type" id="s_cn_edu_pku_poplar_domain_PeEst_ssr_type" object="${peest}" z="hyeTlbeOMBAmIuVjSMU1L4tKoiU="/>
+        <field:display field="ssr" id="s_cn_edu_pku_poplar_domain_PeEst_ssr" object="${peest}" z="Sy0sJibBGQaG0Rz1X4fjerJynhA="/>
+        <field:display field="seqSize" id="s_cn_edu_pku_poplar_domain_PeEst_seqSize" object="${peest}" z="sKGmBTFNT0D5WvAwxRJG+Ci7Zo8="/>
+        <field:display field="seqStart" id="s_cn_edu_pku_poplar_domain_PeEst_seqStart" object="${peest}" z="iXmIOsMJBPm5aJiCHNy5CIeRRjA="/>
+        <field:display field="seqEnd" id="s_cn_edu_pku_poplar_domain_PeEst_seqEnd" object="${peest}" z="C1rtCZ3pU/VU3TANNP5wQMSta7A="/>
+    </page:show>
+</div>

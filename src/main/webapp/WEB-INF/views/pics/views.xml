@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="pics/list">
+        <put-attribute name="body" value="/WEB-INF/views/pics/list.jspx"/>
+    </definition>
+<definition extends="default" name="pics/show">
+        <put-attribute name="body" value="/WEB-INF/views/pics/show.jspx"/>
+    </definition>
+<definition extends="default" name="pics/create">
+        <put-attribute name="body" value="/WEB-INF/views/pics/create.jspx"/>
+    </definition>
+<definition extends="default" name="pics/update">
+        <put-attribute name="body" value="/WEB-INF/views/pics/update.jspx"/>
+    </definition>
+<definition extends="default" name="pics/findPicsByReferNameLike">
+        <put-attribute name="body" value="/WEB-INF/views/pics/findPicsByReferNameLike.jspx"/>
+    </definition>
+<definition extends="default" name="pics/findPicsByForwardPrimerLike">
+        <put-attribute name="body" value="/WEB-INF/views/pics/findPicsByForwardPrimerLike.jspx"/>
+    </definition>
+<definition extends="default" name="pics/findPicsByReversePrimerLike">
+        <put-attribute name="body" value="/WEB-INF/views/pics/findPicsByReversePrimerLike.jspx"/>
+    </definition>
+    <definition extends="default" name="pics/findPicsByTop3">
+        <put-attribute name="body" value="/WEB-INF/views/pics/findPicsByTop3.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu">
+        <menu:category id="c_pic" z="4iQNbU8nPmzv5wZZQeRWcoixHf4=">
+            <menu:item id="i_pic_new" messageCode="global_menu_new" url="/pics?form" z="JSS6g6P0jdCy15C9SVvGBMFOn4M="/>
+            <menu:item id="i_pic_list" messageCode="global_menu_list" url="/pics?page=1&amp;size=${empty param.size ? 10 : param.size}" z="WIHvt4Z39bYgwrO4uN5wmWU/Lkk="/>
+            <menu:item id="fi_pic_forwardprimerlike" messageCode="global_menu_find" url="/pics?find=ByForwardPrimerLike&amp;form" z="Abu9cA9ZzuwlPuyvWe9Zfv+vbOs="/>
+            <menu:item id="fi_pic_refernamelike" messageCode="global_menu_find" url="/pics?find=ByReferNameLike&amp;form" z="cTh2LuSmeZtXVbyVdTt7+uQHxPs="/>
+            <menu:item id="fi_pic_reverseprimerlike" messageCode="global_menu_find" url="/pics?find=ByReversePrimerLike&amp;form" z="jMSi1b+b2MtlQpVpJTyH3ySQmBA="/>
+            <menu:item id="fi_pic_top3" label="findByTop3" url="/pics?find=ByTop3&amp;form"/>
+        </menu:category>
+        <menu:category id="c_ssrlocation" z="ODosiFQ5xGxRq4SOCxMvWuZnYuI=">
+            <menu:item id="i_ssrlocation_new" messageCode="global_menu_new" url="/ssrlocations?form" z="Mg99pMEILUwLF8mvrp/nJzTg1io="/>
+            <menu:item id="i_ssrlocation_list" messageCode="global_menu_list" url="/ssrlocations?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Z+1A5epc1lqNvpO+hwYRvJf67dU="/>
+            <menu:item id="fi_ssrlocation_unigeneidlike" messageCode="global_menu_find" url="/ssrlocations?find=ByUniGeneIdLike&amp;form" z="PepIrRKQzUy9vFLlP2hGVs4jAWo="/>
+            <menu:item id="fi_ssrlocation_bean" label="findByAll" url="/ssrlocations?find=ByBean&amp;form"/>
+        </menu:category>
+        <menu:category id="c_estseq" z="94RhkgnqaLx6+YsuOx5XlDp3+eo=">
+            <menu:item id="i_estseq_new" messageCode="global_menu_new" url="/estseqs?form" z="t1uEX2d+pNg/Kp1ClqKAT3yFkFc="/>
+            <menu:item id="i_estseq_list" messageCode="global_menu_list" url="/estseqs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="+stgZ8D+Q1Ud/g2YR5t+upSoV+g="/>
+        </menu:category>
+        <menu:category id="c_peest" z="+19phIgX0AZOl63944DGw+i9Jvk=">
+            <menu:item id="i_peest_new" messageCode="global_menu_new" url="/peests?form" z="8jE63ky1j5rwh9aUruYhowkH8qU="/>
+            <menu:item id="i_peest_list" messageCode="global_menu_list" url="/peests?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kPPCnd4JVFLjzLhb0MV23iGZPYY="/>
+        </menu:category>
+    </menu:menu>
+</div>

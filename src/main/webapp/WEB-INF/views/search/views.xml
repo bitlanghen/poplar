@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="search" name="searchForm">
+        <put-attribute name="body2" value="/WEB-INF/views/ssrlocations/findSsrLocationsByBean.jspx"/>
+        <put-attribute name="body1" value="/WEB-INF/views/pics/findPicsByTop3.jspx"/>
+    </definition>
+</tiles-definitions>

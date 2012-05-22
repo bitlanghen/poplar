@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_cn_edu_pku_poplar_domain_EstSeq" items="${estseqs}" z="MgibEGHorO+RXXTHcnyUofsxt80=">
+        <table:table data="${estseqs}" id="l_cn_edu_pku_poplar_domain_EstSeq" path="/estseqs" z="r41BJ4zjLjNc0Z8xAwb/fFE0w2k=">
+            <table:column id="c_cn_edu_pku_poplar_domain_EstSeq_uniGeneId" property="uniGeneId" z="lzCkhip83h01WFY28CVTIox9qR0="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_EstSeq_seq" property="seq" z="xZXrgS0AR+EQ8XYXjbnUqomr3Lk="/>
+        </table:table>
+    </page:list>
+</div>

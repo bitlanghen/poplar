@@ -1,0 +1,83 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-20 17:30:42
+project --topLevelPackage cn.edu.pku.poplar --java 5
+hint
+jpa setup --provider HIBERNATE --database MYSQL --userName root --password 1234qwer --hostName 127.0.0.1
+hin
+hint
+entity jpa --class cn.edu.pku.poplar.domain.EstSeq
+hint
+field string --fieldName uniGeneId
+field string --fieldName seq
+entity jpa --class ~.domain.PeEst
+field string gene_id
+field number --fieldName ssr_nr --type java.lang.Integer
+field string --fieldName ssr_type
+field string --fieldName ssr
+// [failed] field number --fieldName size --type java.lang.Integer
+field number --fieldName seqSize --type java.lang.Integer
+// [failed] field number --fieldName start --type java.lang.Integer
+field number --fieldName seqStart --type java.lang.Integer
+field number --fieldName seqEnd --type java.lang.Integer
+entity jpa --class ~.domain.SsrLocation
+field string uniGeneId
+field string ssr
+field string locationInScaffold
+field string cdsOrUtr
+field string strand
+field string locationGene
+field string pacId
+field string scaffold
+field string seqOfScaffold
+field number --fieldName identify --type java.lang.Float
+hint
+hint web mvc
+web mvc setup
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-05-20 17:49:26
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-20 23:54:33
+hint
+hint web mvc
+hint
+hint entities
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-21 13:25:18
+entity jpa --class ~.domain.Pic
+field string --fieldName ReferName
+field string --fieldName ForwardPrimer
+field string --fieldName ReversePrimer
+// [failed] field string --fieldName Repeat
+field string --fieldName PicRepeat
+field number --fieldName TemplateNum --type int
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-05-21 13:47:16
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-21 13:48:26
+entity jpa --class ~.domain.Pic
+field string --fieldName referName
+field string --fieldName forwardPrimer
+field string --fieldName reversePrimer
+// [failed] field string --fieldName repeat
+field string --fieldName picRepeat
+field number --fieldName templateNum --type int
+field number --fieldName pic --type float
+field number --fieldName he --type float
+field number --fieldName na --type float
+field string --fieldName alleleSizeRange
+web mvc scaffold --class ~.web.PicController
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-21 16:44:21
+hint
+hint finders
+finder list --class ~.domain.SsrLocation
+finder list --class ~.domain.Pic
+finder add --finderName findPicsByReferNameLike
+web mvc finder all
+finder add --finderName findPicsByForwardPrimerLike
+finder add --finderName findPicsByReversePrimerLike
+web mvc finder all
+finder list --class ~.domain.SsrLocation
+finder add --finderName findSsrLocationsByUniGeneIdLike
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-05-21 20:29:18
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-21 22:44:02
+web mvc finder all
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-05-22 01:29:02

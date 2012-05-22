@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_cn_edu_pku_poplar_domain_EstSeq" modelAttribute="estSeq" path="/estseqs" render="${empty dependencies}" z="DOrl+cxm9phWYyP4cX83loQptSs=">
+        <field:input field="uniGeneId" id="c_cn_edu_pku_poplar_domain_EstSeq_uniGeneId" z="Suc1zjyzkAe8PvN7HpE9n30a9uk="/>
+        <field:input field="seq" id="c_cn_edu_pku_poplar_domain_EstSeq_seq" z="LeZDvHOiT/ZRszvS3dfR8VLaOnU="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_cn_edu_pku_poplar_domain_EstSeq" render="${not empty dependencies}" z="mj5FIPDNu6YGE8KNOIpse4yg34w="/>
+</div>

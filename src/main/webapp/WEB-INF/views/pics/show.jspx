@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_cn_edu_pku_poplar_domain_Pic" object="${pic}" path="/pics" z="1FmbgtAS5bWlIbZCL6sp9zzAxas=">
+        <field:display field="referName" id="s_cn_edu_pku_poplar_domain_Pic_referName" object="${pic}" z="s039ZtCX6LVNXMQ9r7VwauZI30E="/>
+        <field:display field="forwardPrimer" id="s_cn_edu_pku_poplar_domain_Pic_forwardPrimer" object="${pic}" z="YQmz8/jtWEHN0y+irqHxYokVyhk="/>
+        <field:display field="reversePrimer" id="s_cn_edu_pku_poplar_domain_Pic_reversePrimer" object="${pic}" z="gBRzSpuYD5ERKUYzPSXi6AaKL1o="/>
+        <field:display field="picRepeat" id="s_cn_edu_pku_poplar_domain_Pic_picRepeat" object="${pic}" z="aMP3su96uKniHL2IHD0w+pP21Lw="/>
+        <field:display field="templateNum" id="s_cn_edu_pku_poplar_domain_Pic_templateNum" object="${pic}" z="fLpVUGLDvWlZSQUlpmrfSgqUC6s="/>
+        <field:display field="pic" id="s_cn_edu_pku_poplar_domain_Pic_pic" object="${pic}" z="T3DLv4VcLfub4LnIigPzAOj6XoA="/>
+        <field:display field="he" id="s_cn_edu_pku_poplar_domain_Pic_he" object="${pic}" z="KM80SLgXQal7oEtM35IeTZbl7ko="/>
+        <field:display field="na" id="s_cn_edu_pku_poplar_domain_Pic_na" object="${pic}" z="/PfatsOP9bklYxzgejvdDG1YNVE="/>
+        <field:display field="alleleSizeRange" id="s_cn_edu_pku_poplar_domain_Pic_alleleSizeRange" object="${pic}" z="Ucn3E8nRtnG601hPc++yL//8sjQ="/>
+    </page:show>
+</div>

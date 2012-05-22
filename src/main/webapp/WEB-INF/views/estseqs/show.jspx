@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_cn_edu_pku_poplar_domain_EstSeq" object="${estseq}" path="/estseqs" z="5ReNjN9jmV3bsPwvAFUWF6NeQlo=">
+        <field:display field="uniGeneId" id="s_cn_edu_pku_poplar_domain_EstSeq_uniGeneId" object="${estseq}" z="OmVfMw39t9i9ckNK7rq6FjuHiuQ="/>
+        <field:display field="seq" id="s_cn_edu_pku_poplar_domain_EstSeq_seq" object="${estseq}" z="FVEyOHgAzPxjnZBLq1Njwl7zuyY="/>
+    </page:show>
+</div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_cn_edu_pku_poplar_domain_SsrLocation" modelAttribute="ssrLocation" path="/ssrlocations" versionField="Version" z="UV+FspOCwREkSwffw28OpSaPF+g=">
+        <field:input field="uniGeneId" id="c_cn_edu_pku_poplar_domain_SsrLocation_uniGeneId" z="Nwi2QimXUN+UYnNKt802JwvWYQw="/>
+        <field:input field="ssr" id="c_cn_edu_pku_poplar_domain_SsrLocation_ssr" z="HAsBlPB3zMryxZplFvCAxBc2INQ="/>
+        <field:input field="locationInScaffold" id="c_cn_edu_pku_poplar_domain_SsrLocation_locationInScaffold" z="HOtb6u+mRIlaiDf2bXKNPkcGWnw="/>
+        <field:input field="cdsOrUtr" id="c_cn_edu_pku_poplar_domain_SsrLocation_cdsOrUtr" z="7Y0I1stYFzXitgs9D0v2pVsuvWk="/>
+        <field:input field="strand" id="c_cn_edu_pku_poplar_domain_SsrLocation_strand" z="DrEooQaP3lNdqs7Vkw7sGcMk1fI="/>
+        <field:input field="locationGene" id="c_cn_edu_pku_poplar_domain_SsrLocation_locationGene" z="y3HgIha0WA4X+beZOefs1F8f4Ug="/>
+        <field:input field="pacId" id="c_cn_edu_pku_poplar_domain_SsrLocation_pacId" z="It0kf3iefC1oJao0hp7K5DQ9MF0="/>
+        <field:input field="scaffold" id="c_cn_edu_pku_poplar_domain_SsrLocation_scaffold" z="Uq+d0yBXoIpGCFc1UKucXTubJ60="/>
+        <field:input field="seqOfScaffold" id="c_cn_edu_pku_poplar_domain_SsrLocation_seqOfScaffold" z="r+orAiJY1dXDj7FOnMUyRmxwJeA="/>
+        <field:input field="identify" id="c_cn_edu_pku_poplar_domain_SsrLocation_identify" validationMessageCode="field_invalid_number" z="qWBFswTGIHTFBlmovhKoQ1rPHOw="/>
+    </form:update>
+</div>

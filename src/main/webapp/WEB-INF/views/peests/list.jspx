@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_cn_edu_pku_poplar_domain_PeEst" items="${peests}" z="d33uHfEWEJBNENZ/w5tq32oX25U=">
+        <table:table data="${peests}" id="l_cn_edu_pku_poplar_domain_PeEst" path="/peests" z="W4bGt1WFtM/NiBta0tqifHveTuY=">
+            <table:column id="c_cn_edu_pku_poplar_domain_PeEst_gene_id" property="gene_id" z="IL8UsRNHnFsgENHqdEJvsRNqMfY="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_PeEst_ssr_nr" property="ssr_nr" z="D7HZt8eNENf1D9FkbHBYFpFNOeI="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_PeEst_ssr_type" property="ssr_type" z="SEeSgfW74iAgZaol8HmK3iXosAA="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_PeEst_ssr" property="ssr" z="W9/EGmVqV29GeCFCmr9xO3ksn6I="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_PeEst_seqSize" property="seqSize" z="T4E1+9bTRPjX+rXWUGeceRVmKc8="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_PeEst_seqStart" property="seqStart" z="luv6GSG5DwcQ8uZcBIcZhYyGA0E="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu">
+        <menu:item id="i_home" label="Home" url="/"/>
+        <menu:item id="i_search" label="Search" url="/search?form"/>
+        <menu:item id="i_blast" label="Blast" url="/blast"/>
+        <menu:item id="i_brower" label="Brower" url="/brower"/>
+        <menu:item id="i_info" label="Info" url="/info"/>
+    </menu:menu>
+</div>

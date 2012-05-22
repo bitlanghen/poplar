@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_cn_edu_pku_poplar_domain_Pic" items="${pics}" z="1hx+rbiGaVQ6XsRiV3aHkMiFY7s=">
+        <table:table data="${pics}" id="l_cn_edu_pku_poplar_domain_Pic" path="/pics" z="AR2bosveoYwx9Jo58uwywD/Ae2o=">
+            <table:column id="c_cn_edu_pku_poplar_domain_Pic_referName" property="referName" z="uVQuB8FjeTc39FcraOOYTwNXyGQ="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_Pic_forwardPrimer" property="forwardPrimer" z="E7ZUMjqFsrvQiArllgA36r+EYeU="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_Pic_reversePrimer" property="reversePrimer" z="upVI247nZFzSuPUC11AyxNs7fmU="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_Pic_picRepeat" property="picRepeat" z="WtMK7GYrzkPXi/3j49RqSQU8kMM="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_Pic_templateNum" property="templateNum" z="nd2GLFSQyDiYc3u4m1Pj6pHPfCE="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_Pic_pic" property="pic" z="2oAmXR+UpLZKFE5p/m6vQjscFDM="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_cn_edu_pku_poplar_domain_SsrLocation" items="${ssrlocations}" z="N2xGMSaOJVHZoIbGIBTyHTmg1k4=">
+        <table:table data="${ssrlocations}" id="l_cn_edu_pku_poplar_domain_SsrLocation" path="/ssrlocations" create="false" delete="false" update="false">
+            <table:column id="c_cn_edu_pku_poplar_domain_SsrLocation_uniGeneId" property="uniGeneId" z="kb+wmG4Nj+BTpAo0zKCMyOmoAgw="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_SsrLocation_ssr" maxLength="10" property="ssr" z="SmE8RxxaU/S+9Wmw0QCq5Nge768="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_SsrLocation_locationInScaffold" property="locationInScaffold" z="Kd1hk6ZdsoxK3p6ar6nR8K58/Z4="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_SsrLocation_cdsOrUtr" property="cdsOrUtr" z="+TB4FAOV9XzSPGHP4jHEilOBcC4="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_SsrLocation_strand" property="strand" z="mLOW7IgnF1nP6P45ziqhr1ROTI4="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_SsrLocation_locationGene" property="locationGene" z="aM92ZPqBOqaKsC6YDtzfiu5msbQ="/>
+        </table:table>
+    </page:list>
+</div>
