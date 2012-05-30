@@ -16,14 +16,14 @@ body {
 }
 
 #wrapper {
-	width:800px;
-	min-width: 800px;
-	max-width: 800px;
+	width:905px;
+	min-width: 905px;
+	max-width: 905px;
 	margin-right: auto;
 	margin-left: auto;
 
 	/* fix max-width incompatibility in IE6 */
-	width:expression(document.body.clientWidth > 800? "800px": "auto" );
+	width:expression(document.body.clientWidth > 905? "905px": "auto" );
 	
 	overflow:hidden;
 	display:block;
@@ -377,4 +377,40 @@ fieldset th {
 .flag {
 	height: 11px;
 	width: 16px;
+}
+
+.scaffold {
+    position: relative;
+    top: 15px;
+    display: inline;
+    float: left;
+}
+
+.scaffold_last {
+    position: relative;
+    top: 15px;
+}
+
+.gene {
+    border: 1px solid #000;
+    height: 960px;
+    width: 10px;
+}
+
+.marker {
+    border-top: 1px solid #f00;
+    width: 9px;
+    height: 1px;
+    position: absolute;
+    cursor: pointer;
+    display: table-cell;
+}
+
+.number_label {
+    width: 1px;
+    border-top: 1px solid #000;
+    position: absolute;
+    padding-left: 12px;
+    font-size: 10px;
+    left: 12px;
 }

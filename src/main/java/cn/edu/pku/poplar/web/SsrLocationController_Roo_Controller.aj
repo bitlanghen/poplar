@@ -3,11 +3,8 @@
 
 package cn.edu.pku.poplar.web;
 
+import cn.edu.pku.poplar.domain.Pic;
 import cn.edu.pku.poplar.domain.SsrLocation;
-import cn.edu.pku.poplar.web.SsrLocationController;
-import java.io.UnsupportedEncodingException;
-import javax.servlet.http.HttpServletRequest;
-import javax.validation.Valid;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,6 +13,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.util.UriUtils;
 import org.springframework.web.util.WebUtils;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
+import java.io.UnsupportedEncodingException;
 
 privileged aspect SsrLocationController_Roo_Controller {
     
@@ -38,7 +39,13 @@ privileged aspect SsrLocationController_Roo_Controller {
     
     @RequestMapping(value = "/{id}", produces = "text/html")
     public String SsrLocationController.show(@PathVariable("id") Long id, Model uiModel) {
-        uiModel.addAttribute("ssrlocation", SsrLocation.findSsrLocation(id));
+        SsrLocation ssrLocation = SsrLocation.findSsrLocation(id);
+        uiModel.addAttribute("ssrlocation", ssrLocation);
+        try{
+            uiModel.addAttribute("pic", Pic.findPicsByReferNameLike(ssrLocation.getUniGeneId()).getSingleResult());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         uiModel.addAttribute("itemId", id);
         return "ssrlocations/show";
     }
