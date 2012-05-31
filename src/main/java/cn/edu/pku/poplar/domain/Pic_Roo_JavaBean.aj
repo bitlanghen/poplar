@@ -79,4 +79,12 @@ privileged aspect Pic_Roo_JavaBean {
         this.alleleSizeRange = alleleSizeRange;
     }
     
+    public int Pic.getIsTested() {
+        return this.isTested;
+    }
+    
+    public void Pic.setIsTested(int isTested) {
+        this.isTested = isTested;
+    }
+    
 }
