@@ -3,7 +3,7 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:find finderName="ByTop3" label="pics" id="ff_cn_edu_pku_poplar_domain_Pic" path="/pics">
-        <field:input disableFormBinding="true" label="EST SSR ID" id="_referName" field="referName"/>
+        <field:input disableFormBinding="true" label="refer name" id="_referName" field="referName"/>
         <field:input disableFormBinding="true" label="forward primer" id="_forwardPrimer" field="forwardPrimer"/>
         <field:input disableFormBinding="true" label="reverse primer" id="_reversePrimer" field="reversePrimer"/>
     </form:find>

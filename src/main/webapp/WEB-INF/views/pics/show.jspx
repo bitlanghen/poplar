@@ -12,6 +12,5 @@
         <field:display field="he" id="s_cn_edu_pku_poplar_domain_Pic_he" object="${pic}" z="KM80SLgXQal7oEtM35IeTZbl7ko="/>
         <field:display field="na" id="s_cn_edu_pku_poplar_domain_Pic_na" object="${pic}" z="/PfatsOP9bklYxzgejvdDG1YNVE="/>
         <field:display field="alleleSizeRange" id="s_cn_edu_pku_poplar_domain_Pic_alleleSizeRange" object="${pic}" z="Ucn3E8nRtnG601hPc++yL//8sjQ="/>
-        <field:display field="isTested" id="s_cn_edu_pku_poplar_domain_Pic_isTested" object="${pic}" z="qSqNAmKv4pSMx3HFCvFfJ2tHKOc="/>
     </page:show>
 </div>
