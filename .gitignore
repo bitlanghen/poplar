@@ -1,6 +1,12 @@
 *.class
-
+#IDE#
+*.iml
+.idea/*
 # Package Files #
 *.jar
 *.war
 *.ear
+#complied#
+target/
+#mac#
+.Ds_store

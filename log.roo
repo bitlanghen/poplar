@@ -81,3 +81,7 @@ exit
 web mvc finder all
 exit
 // Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-05-22 01:29:02
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-22 21:03:59
+field number --fieldName isTested --class ~.domain.Pic --type int
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-05-22 21:06:57
