@@ -54,17 +54,4 @@ privileged aspect Pic_Roo_Finder {
         return q;
     }
     
-    public static TypedQuery<Pic> Pic.findPicsByTop3(String reversePrimer, String forwardPrimer, String referName) {
-        StringBuilder hql = new StringBuilder("SELECT o FROM Pic AS o");
-        StringBuilder andClause = new StringBuilder();
-        andClause.append(HqlUtils.getAndClauseHql("reversePrimer", reversePrimer));
-        andClause.append(HqlUtils.getAndClauseHql("forwardPrimer", forwardPrimer));
-        andClause.append(HqlUtils.getAndClauseHql("referName", referName));
-        HqlUtils.updateFirstAndToWhere(andClause);
-        hql.append(andClause.toString());
-        EntityManager em = Pic.entityManager();
-        TypedQuery<Pic> q = em.createQuery(hql.toString(), Pic.class);
-        return q;
-    }
-    
 }
