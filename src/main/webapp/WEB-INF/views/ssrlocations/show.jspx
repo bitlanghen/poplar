@@ -14,16 +14,16 @@
         <field:display field="seqOfScaffold" id="s_cn_edu_pku_poplar_domain_SsrLocation_seqOfScaffold" object="${ssrlocation}" z="25kF4NLwrAeYeb3xTTrU9Ub7gZg="/>
         <field:display field="identify" id="s_cn_edu_pku_poplar_domain_SsrLocation_identify" object="${ssrlocation}" z="8TsJ0h1fd2fHpEDNkXx48BsE6pw="/>
     </page:show>
-    <page:show id="ps_cn_edu_pku_poplar_domain_Pic" label="Experimental varidation" object="${pic}" path="/pics" z="1FmbgtAS5bWlIbZCL6sp9zzAxas=">
+    <page:show id="ps_cn_edu_pku_poplar_domain_Pic" object="${pic}" path="/pics" z="1FmbgtAS5bWlIbZCL6sp9zzAxas=">
         <field:display field="referName" id="s_cn_edu_pku_poplar_domain_Pic_referName" object="${pic}" z="s039ZtCX6LVNXMQ9r7VwauZI30E="/>
         <field:display field="forwardPrimer" id="s_cn_edu_pku_poplar_domain_Pic_forwardPrimer" object="${pic}" z="YQmz8/jtWEHN0y+irqHxYokVyhk="/>
         <field:display field="reversePrimer" id="s_cn_edu_pku_poplar_domain_Pic_reversePrimer" object="${pic}" z="gBRzSpuYD5ERKUYzPSXi6AaKL1o="/>
-        <field:display field="picRepeat" id="s_cn_edu_pku_poplar_domain_Pic_picRepeat" label="SSR motif" object="${pic}" z="aMP3su96uKniHL2IHD0w+pP21Lw="/>
+        <field:display field="picRepeat" id="s_cn_edu_pku_poplar_domain_Pic_picRepeat" object="${pic}" z="aMP3su96uKniHL2IHD0w+pP21Lw="/>
         <field:display field="templateNum" id="s_cn_edu_pku_poplar_domain_Pic_templateNum" object="${pic}" z="fLpVUGLDvWlZSQUlpmrfSgqUC6s="/>
-        <field:display field="pic" id="s_cn_edu_pku_poplar_domain_Pic_pic" label="Polymorphism Information Content" object="${pic}" z="T3DLv4VcLfub4LnIigPzAOj6XoA="/>
-        <field:display field="he" id="s_cn_edu_pku_poplar_domain_Pic_he" label="Expected Heterozygosity (HE)" object="${pic}" z="KM80SLgXQal7oEtM35IeTZbl7ko="/>
-        <field:display field="na" id="s_cn_edu_pku_poplar_domain_Pic_na" label="Allele Numbers" object="${pic}" z="/PfatsOP9bklYxzgejvdDG1YNVE="/>
+        <field:display field="pic" id="s_cn_edu_pku_poplar_domain_Pic_pic" object="${pic}" z="T3DLv4VcLfub4LnIigPzAOj6XoA="/>
+        <field:display field="he" id="s_cn_edu_pku_poplar_domain_Pic_he" object="${pic}" z="KM80SLgXQal7oEtM35IeTZbl7ko="/>
+        <field:display field="na" id="s_cn_edu_pku_poplar_domain_Pic_na" object="${pic}" z="/PfatsOP9bklYxzgejvdDG1YNVE="/>
         <field:display field="alleleSizeRange" id="s_cn_edu_pku_poplar_domain_Pic_alleleSizeRange" object="${pic}" z="Ucn3E8nRtnG601hPc++yL//8sjQ="/>
-        <field:display field="tests" id="s_cn_edu_pku_poplar_domain_Pic_isTested" object="${pic}" z="qSqNAmKv4pSMx3HFCvFfJ2tHKOc="/>
+        <field:display field="isTested" id="s_cn_edu_pku_poplar_domain_Pic_isTested" object="${pic}" z="qSqNAmKv4pSMx3HFCvFfJ2tHKOc="/>
     </page:show>
 </div>
