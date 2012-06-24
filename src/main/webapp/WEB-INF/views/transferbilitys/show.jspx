@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_cn_edu_pku_poplar_domain_Transferbility" object="${transferbility}" path="/transferbilitys" z="AY5Wc3pfEjgbhR6rvXNN6VHC5WU=">
+        <field:display field="referName" id="s_cn_edu_pku_poplar_domain_Transferbility_referName" object="${transferbility}" z="E60NZcxNwM2uF4m4xL2GqO5V0ec="/>
+        <field:display field="populusWillsonii" id="s_cn_edu_pku_poplar_domain_Transferbility_populusWillsonii" object="${transferbility}" z="N2swT5TMYbI5osmWpCTLfB0uFn0="/>
+        <field:display field="populusPseudotomentosa" id="s_cn_edu_pku_poplar_domain_Transferbility_populusPseudotomentosa" object="${transferbility}" z="Y20vvFWhIbuPabntJ07RXka0J4g="/>
+        <field:display field="populusNigraVarItalica" id="s_cn_edu_pku_poplar_domain_Transferbility_populusNigraVarItalica" object="${transferbility}" z="Vp3UdzmV2lxIYvWn6viJmTlWg6k="/>
+        <field:display field="populusNigraVarThevestina" id="s_cn_edu_pku_poplar_domain_Transferbility_populusNigraVarThevestina" object="${transferbility}" z="fWpGgBEIgfsOkFDWZyDf6kadPuE="/>
+        <field:display field="populusTomentosa" id="s_cn_edu_pku_poplar_domain_Transferbility_populusTomentosa" object="${transferbility}" z="cLuauZp3n0/dDy8tb+DYqS2dBvU="/>
+        <field:display field="populusTrichocarpa" id="s_cn_edu_pku_poplar_domain_Transferbility_populusTrichocarpa" object="${transferbility}" z="ue9Iu9nfDV0+xV2dQ69gWNZ+EIQ="/>
+        <field:display field="populusUssuriensis" id="s_cn_edu_pku_poplar_domain_Transferbility_populusUssuriensis" object="${transferbility}" z="icH2ZZDNI5qNWpdKcPP0Fw/7eys="/>
+        <field:display field="populusPrninosa" id="s_cn_edu_pku_poplar_domain_Transferbility_populusPrninosa" object="${transferbility}" z="Koqq9jmqA0KWhoy8REW/OzlsTR0="/>
+        <field:display field="populusEuphratica" id="s_cn_edu_pku_poplar_domain_Transferbility_populusEuphratica" object="${transferbility}" z="jkKsYvHvsy8PYY3TOBB4CtxwhZ8="/>
+    </page:show>
+</div>

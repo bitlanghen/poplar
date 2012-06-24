@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_cn_edu_pku_poplar_domain_Transferbility" items="${transferbilitys}" z="Tbk3tEykmF8btJhy2un7V00IPLU=">
+        <table:table data="${transferbilitys}" id="l_cn_edu_pku_poplar_domain_Transferbility" path="/transferbilitys" z="s/HP+E8DA4yIrihHkxYbh7y7hRk=">
+            <table:column id="c_cn_edu_pku_poplar_domain_Transferbility_referName" property="referName" z="l0oRk+u9ubKnuviwSyEb4Gk7jPQ="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_Transferbility_populusWillsonii" property="populusWillsonii" z="UrxmFfLUL9L+j0yOsyyS1TgL/1U="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_Transferbility_populusPseudotomentosa" property="populusPseudotomentosa" z="3a1Jd8Shx9nJtiGXlyGi6GMBqc4="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_Transferbility_populusNigraVarItalica" property="populusNigraVarItalica" z="aOz1KukFgXoU/R2oO0yEJf5gqiw="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_Transferbility_populusNigraVarThevestina" property="populusNigraVarThevestina" z="uldQdSV/gxPc40f37EPl3vYRz6Q="/>
+            <table:column id="c_cn_edu_pku_poplar_domain_Transferbility_populusTomentosa" property="populusTomentosa" z="yrs1g/rSCsH/d6Dj6V8NWchFLeQ="/>
+        </table:table>
+    </page:list>
+</div>

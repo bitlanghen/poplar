@@ -5,6 +5,7 @@ package cn.edu.pku.poplar.web;
 
 import cn.edu.pku.poplar.domain.Pic;
 import cn.edu.pku.poplar.domain.SsrLocation;
+import cn.edu.pku.poplar.domain.Transferbility;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -44,6 +45,17 @@ privileged aspect SsrLocationController_Roo_Controller {
         try{
             uiModel.addAttribute("pic", Pic.findPicsByReferNameLike(ssrLocation.getUniGeneId()).getSingleResult());
         } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        try{
+            Transferbility transferbility =  Transferbility.findTransferbilitysByReferNameEquals(ssrLocation.getUniGeneId()).getSingleResult();
+            if(transferbility == null) {
+
+            } else {
+                uiModel.addAttribute("transferId", transferbility.getId());
+            }
+        } catch (Exception  e) {
             e.printStackTrace();
         }
         uiModel.addAttribute("itemId", id);

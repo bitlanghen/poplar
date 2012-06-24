@@ -85,3 +85,25 @@ exit
 field number --fieldName isTested --class ~.domain.Pic --type int
 exit
 // Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-05-22 21:06:57
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-06-12 16:22:25
+entity jpa --class ~.domain.Transferbility
+field string --fieldName referName
+field string --fieldName populusWillsonii
+field string --fieldName populusPseudotomentosa
+field string --fieldName populusNigraVarItalica
+field string --fieldName populusNigraVarThevestina
+field string --fieldName populusTomentosa
+field string --fieldName populusTrichocarpa
+field string --fieldName populusUssuriensis
+field string --fieldName populusPrninosa
+field string --fieldName populusEuphratica
+web mvc scaffold --class ~.domain.Transferbility
+web mvc scaffold --class ~.web.Transferbility
+web mvc scaffold --class ~.web.TransferbilityController
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-06-12 16:31:21
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-06-12 17:00:41
+finder list --class ~.domain.Transferbility
+finder add --finderName findTransferbilitysByReferNameEquals
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-06-12 17:01:38

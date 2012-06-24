@@ -7,6 +7,7 @@ import cn.edu.pku.poplar.domain.EstSeq;
 import cn.edu.pku.poplar.domain.PeEst;
 import cn.edu.pku.poplar.domain.Pic;
 import cn.edu.pku.poplar.domain.SsrLocation;
+import cn.edu.pku.poplar.domain.Transferbility;
 import cn.edu.pku.poplar.web.ApplicationConversionServiceFactoryBean;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.core.convert.converter.Converter;
@@ -112,6 +113,30 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         };
     }
     
+    public Converter<Transferbility, String> ApplicationConversionServiceFactoryBean.getTransferbilityToStringConverter() {
+        return new org.springframework.core.convert.converter.Converter<cn.edu.pku.poplar.domain.Transferbility, java.lang.String>() {
+            public String convert(Transferbility transferbility) {
+                return new StringBuilder().append(transferbility.getReferName()).append(" ").append(transferbility.getPopulusWillsonii()).append(" ").append(transferbility.getPopulusPseudotomentosa()).append(" ").append(transferbility.getPopulusNigraVarItalica()).toString();
+            }
+        };
+    }
+    
+    public Converter<Long, Transferbility> ApplicationConversionServiceFactoryBean.getIdToTransferbilityConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.Long, cn.edu.pku.poplar.domain.Transferbility>() {
+            public cn.edu.pku.poplar.domain.Transferbility convert(java.lang.Long id) {
+                return Transferbility.findTransferbility(id);
+            }
+        };
+    }
+    
+    public Converter<String, Transferbility> ApplicationConversionServiceFactoryBean.getStringToTransferbilityConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.String, cn.edu.pku.poplar.domain.Transferbility>() {
+            public cn.edu.pku.poplar.domain.Transferbility convert(String id) {
+                return getObject().convert(getObject().convert(id, Long.class), Transferbility.class);
+            }
+        };
+    }
+    
     public void ApplicationConversionServiceFactoryBean.installLabelConverters(FormatterRegistry registry) {
         registry.addConverter(getEstSeqToStringConverter());
         registry.addConverter(getIdToEstSeqConverter());
@@ -125,6 +150,9 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         registry.addConverter(getSsrLocationToStringConverter());
         registry.addConverter(getIdToSsrLocationConverter());
         registry.addConverter(getStringToSsrLocationConverter());
+        registry.addConverter(getTransferbilityToStringConverter());
+        registry.addConverter(getIdToTransferbilityConverter());
+        registry.addConverter(getStringToTransferbilityConverter());
     }
     
     public void ApplicationConversionServiceFactoryBean.afterPropertiesSet() {

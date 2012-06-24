@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_cn_edu_pku_poplar_domain_Transferbility" modelAttribute="transferbility" path="/transferbilitys" render="${empty dependencies}" z="6EqQVFqYNriLtWC8BSPRyOaKPLA=">
+        <field:input field="referName" id="c_cn_edu_pku_poplar_domain_Transferbility_referName" z="9G3guSrY3cwYcrfMyz7yqQB9p0o="/>
+        <field:input field="populusWillsonii" id="c_cn_edu_pku_poplar_domain_Transferbility_populusWillsonii" z="rERMkhhM8IslmjjGOq8HvzEr0ZE="/>
+        <field:input field="populusPseudotomentosa" id="c_cn_edu_pku_poplar_domain_Transferbility_populusPseudotomentosa" z="uh+o05toMB/RY0BxAPVWzyHMPEA="/>
+        <field:input field="populusNigraVarItalica" id="c_cn_edu_pku_poplar_domain_Transferbility_populusNigraVarItalica" z="2B346bep6+fuxtQQNLan6e0wVtc="/>
+        <field:input field="populusNigraVarThevestina" id="c_cn_edu_pku_poplar_domain_Transferbility_populusNigraVarThevestina" z="dqn3nN0WcbcfrVfax94tL8w/uNc="/>
+        <field:input field="populusTomentosa" id="c_cn_edu_pku_poplar_domain_Transferbility_populusTomentosa" z="hgOqbD0RRyRByNJkM0kncUhSJsY="/>
+        <field:input field="populusTrichocarpa" id="c_cn_edu_pku_poplar_domain_Transferbility_populusTrichocarpa" z="rJFxu9Id0PrWyW4clNHy54H0N10="/>
+        <field:input field="populusUssuriensis" id="c_cn_edu_pku_poplar_domain_Transferbility_populusUssuriensis" z="81+axQ3wRvMYg9lyMP6lJVJWtSE="/>
+        <field:input field="populusPrninosa" id="c_cn_edu_pku_poplar_domain_Transferbility_populusPrninosa" z="u6ytMKuo2lJk8WKW1f9gzxpXIBg="/>
+        <field:input field="populusEuphratica" id="c_cn_edu_pku_poplar_domain_Transferbility_populusEuphratica" z="3lwYvQ1/fJ/LfHc3SVDs8aXZ0EM="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_cn_edu_pku_poplar_domain_Transferbility" render="${not empty dependencies}" z="Pz4o8fRBdMmQv9YRZGH2eeLmgj0="/>
+</div>

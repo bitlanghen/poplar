@@ -23,7 +23,7 @@
                 <tiles:insertAttribute name="body"/>
 		    </div>
             <div>
-                <tiles:insertAttribute name="footer" ignore="true"/>
+                <tiles:insertAttribute name="footer" ignore="false"/>
             </div>
 		</div>
 	</body>

@@ -116,7 +116,7 @@ table.navigation {
 }
 
 label {
-	width:120px;
+	width:240px;
 	float:left;
 	margin-left: 5px;
 	margin-top: 0px;
@@ -389,13 +389,14 @@ fieldset th {
 .scaffold_last {
     position: relative;
     top: 15px;
+    float: left;
 }
 
 .gene {
     border: 1px solid #000;
     height: 960px;
     width: 10px;
-    background-color: #848f73;
+    background-color: #dedede;
 }
 
 .marker {

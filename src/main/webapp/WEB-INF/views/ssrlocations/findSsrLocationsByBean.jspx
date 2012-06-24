@@ -3,14 +3,14 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:find finderName="ByBean" label="SSR Locations" id="find_by_bean" path="/ssrlocations">
-        <field:input disableFormBinding="true" label="uni gene id" id="uni_gene_id" field="uniGeneId"/>
-        <field:input disableFormBinding="true" label="ssr" id="_ssr" field="ssr"/>
-        <field:input disableFormBinding="true" label="location in scaffold" id="location_in_scaffold" field="locationInScaffold"/>
-        <field:input disableFormBinding="true" label="cds or utr" id="cds_or_utr" field="cdsOrUtr"/>
-        <field:input disableFormBinding="true" label="strand" id="_strand" field="strand"/>
-        <field:input disableFormBinding="true" label="location gene" id="location_gene" field="locationGene"/>
-        <field:input disableFormBinding="true" label="pac id" id="pac id" field="pacId"/>
-        <field:input disableFormBinding="true" label="scaffold" id="_scaffold" field="scaffold"/>
-        <field:input disableFormBinding="true" label="seq of scaffold" id="seq_of_scaffold" field="seqOfScaffold"/>
+        <field:input disableFormBinding="true" label="uni gene id" id="uni_gene_id" field="uniGeneId" prompt="23501(only digitals in ID)"/>
+        <field:input disableFormBinding="true" label="ssr" id="_ssr" field="ssr" prompt="(CAC)6"/>
+        <field:input disableFormBinding="true" label="location in scaffold" id="location_in_scaffold" field="locationInScaffold" prompt="21876104-21876121"/>
+        <field:input disableFormBinding="true" label="cds or utr" id="cds_or_utr" field="cdsOrUtr" prompt="CDS"/>
+        <field:input disableFormBinding="true" label="strand" id="_strand" field="strand" prompt="+"/>
+        <field:input disableFormBinding="true" label="location gene" id="location_gene" field="locationGene" prompt="PAC:18225571.CDS.1"/>
+        <field:input disableFormBinding="true" label="pac id" id="pac id" field="pacId" prompt="18225571"/>
+        <field:input disableFormBinding="true" label="scaffold" id="_scaffold" field="scaffold" prompt="scaffold_1"/>
+        <field:input disableFormBinding="true" label="seq of scaffold" id="seq_of_scaffold" field="seqOfScaffold" prompt="ACCACCACCAACACCACC"/>
     </form:find>
 </div>

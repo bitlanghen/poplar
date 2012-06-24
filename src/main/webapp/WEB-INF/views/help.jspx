@@ -1,0 +1,65 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8" />
+    <jsp:output omit-xml-declaration="yes" />
+    <spring:message var="app_name" code="application_name" htmlEscape="false" />
+    <spring:message var="title" code="welcome_titlepane" arguments="${app_name}" htmlEscape="false" />
+    <util:panel id="title" title="${title}">
+        <ul style="padding-left: 10px;">
+            <li><a href="#data_source">Data Source</a></li>
+            <li><a href="#est_ssr">EST-SSR annotation</a></li>
+            <li><a href="#data_release_policy">Data release policy</a></li>
+            <li><a href="#financial_support">Financial support</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <h3 id="data_source">
+            Data Source
+        </h3>
+        <p>
+            The aim of the Populus euphratica EST-SSR database (DesertPoplar EST-SSR db) is to provide a comprehensive
+            and useful resource of microsatellite markers for further studies of population genetics and Quantitative
+            Traits Locus (QTL) analysis to this precious desert poplar tree. Currently, the database contains a catalog
+            of 94,090 unigenes from which 4.1 % (4, 202 loci) have one or more SSR motifs. The location of all the SSR
+            were mapped on the  genome of P. trichocarpa Torr. &amp; A, the only poplar tree which has whole genome sequence.
+            In addition, a total of 3070 EST-SSRs primers were designed from the 4202 loci, all the primer information and
+            PCR conditions were presented on the database.
+        </p>
+        <h3 id="est_ssr">EST-SSR annotation</h3>
+        <p>
+            Besides the detailed primer information we provided in the database, we also annotated the unigenes which contained microsatellites.
+            <h4>1.Gene information</h4>
+            The gene information includes Gene ID, location on the genome. The information was extracted from gene info file downloaded from NCBI ftp (ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/).
+            <h4>2.	Gene ontology (GO) annotation</h4>
+            The GO annotations were parsed using the blast2go program (http://www.blast2go.com/b2ghome)
+            <h4>3. KEGG pathway information</h4>
+            We used the KEGG (Kyoto Encyclopedia of Genes and Genomes) modular of the blast2go program (http://www.blast2go.com/b2ghome) to get the pathway information in which each unigene invovled.
+        </p>
+        <h3 id="data_release_policy">Data release policy</h3>
+        <p>
+            All primer sequences, amplification condition, transferability information are being made available as a public service. These data can be freely downloaded and used for all research purpose. The only restriction is that the source of theses information should be cited as follows.
+            For all the multiplex primers’ sequences and amplification information, please cite:
+            Xu F, Feng S.S., Du F.K.* and Wu RL. Two highly validated SSR multiplexes (8-plex) for the desert poplar, Populus euphratica (Salicaceae) (submitted to Molecular Ecology Resources)
+            For all the EST-SSR primer sequence and transferability information, please cite:
+            Du et al. Exploiting EST database for the development and characterization of EST-SSR markers in the desert poplar, Populus euphratica (Salicaceae) (In preparation)
+        </p>
+        <h3 id="financial_support">Financial support</h3>
+        <p>
+            Funding for this research was provided by the Fundamental Research Funds (YX2011-23) , Young Scientist Fund (2010BLX01), in BJFU and Research Fund for the Doctoral Program of Higher Education of China to FKD and “One-thousand Person Plan” Award, National Natural Science Foundation of China (Grant No.30900854) to RLW.
+        </p>
+        <h3 id="contact">Contact</h3>
+        <p>
+            For general questions, problems with the database or about the primer stocks, please contact: dufang@bjfu.edu.cn
+            <br/>
+            Our address:
+            <br/>
+            Center for Computational Biology
+            <br/>
+            College of Biological Sciences and Technology
+            <br/>
+            Beijing Forestry University
+            <br/>
+            Post NO. 100083
+            <br/>
+            Phone: (86)-010-62336269
+        </p>
+    </util:panel>
+</div>

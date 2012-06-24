@@ -25,5 +25,9 @@
             <menu:item id="i_peest_new" messageCode="global_menu_new" url="/peests?form" z="8jE63ky1j5rwh9aUruYhowkH8qU="/>
             <menu:item id="i_peest_list" messageCode="global_menu_list" url="/peests?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kPPCnd4JVFLjzLhb0MV23iGZPYY="/>
         </menu:category>
+        <menu:category id="c_transferbility" z="V0ObGm0qRUGBM71EJyM0JqkVhXk=">
+            <menu:item id="i_transferbility_new" messageCode="global_menu_new" url="/transferbilitys?form" z="6DeozWhFfdqn/8Dgt7Ot1ev3R4I="/>
+            <menu:item id="i_transferbility_list" messageCode="global_menu_list" url="/transferbilitys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="n85WDnUiKlvWBoyg7OVcoiShtGU="/>
+        </menu:category>
     </menu:menu>
 </div>
