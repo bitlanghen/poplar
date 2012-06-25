@@ -416,3 +416,11 @@ fieldset th {
     font-size: 10px;
     left: 12px;
 }
+
+#zoom_in {
+    cursor: pointer;
+}
+
+#zoom_out {
+    cursor: pointer;
+}

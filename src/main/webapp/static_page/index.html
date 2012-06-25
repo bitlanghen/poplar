@@ -32,7 +32,7 @@
                 <a title="Brower" href="/poplar/brower">Brower</a>
             </li>
             <li id="i_help">
-                <a title="Help" href="/">Help</a>
+                <a title="Help" href="/poplar">Help</a>
             </li>
         </ul>
     </div>
@@ -41,10 +41,12 @@
             <script type="text/javascript">dojo.require('dijit.TitlePane');</script>
             <div id="_title_title_id">
                 <script type="text/javascript">Spring.addDecoration(new Spring.ElementDecoration({elementId:'_title_title_id', widgetType:'dijit.TitlePane', widgetAttrs:{title:'Welcome to Poplar', open:true, height:"2410px"}})); </script>
-                <div style="height: 2560px">
+                <div id="scaffold_wrapper" style="height: 2560px">
                     <div>
                         <span style="border-left: 20px solid #ff0000; padding-left: 5px;">EST-SSRs</span>
                         <span style="border-left: 20px solid #00ff00; padding-left: 5px;">Experimental Validation EST-SSRs</span>
+                        <span id="zoom_in"><img height="15px" src="/poplar/resources/images/zoom_in.png" alt="zoom in"/>zoom in</span>
+                        <span id="zoom_out"><img height="15px" src="/poplar/resources/images/zoom_out.png" alt="zoom out"/>zoom out</span>
                     </div>
                     <div style="margin-top: 5px; font-size: 11px; background-color: #2d2d2d; color: #FFFFFF;">
                         <span style="margin-left: 12px; margin-right: 28px;">I</span>
@@ -4253,11 +4255,52 @@
             </div>
             <script type="text/javascript">
                 var markers = dojo.query('.marker');
-                dojo.forEach(markers, function (entry, i) {
-                    dojo.connect(entry, "onclick", function () {
-                        window.location.href = "/poplar/ssrlocations/" + this.title;
+                var numberLabels = dojo.query(".number_label");
+                var scaffolds = dojo.query(".scaffold");
+                var genes = dojo.query(".gene");
+                var scaffoldWrapper = dojo.byId("scaffold_wrapper");
+                function style_node(node, prop, is_in) {
+                    var origin = dojo.style(node, prop);
+                    if(is_in) {
+                        dojo.style(node, prop, origin * 2);
+                    } else {
+                        dojo.style(node, prop, origin / 2);
+                    }
+
+                }
+
+                function zoom(is_in) {
+                    dojo.forEach(markers, function(entry, i) {
+                        style_node(entry, "top", is_in);
+                    });
+                    dojo.forEach(numberLabels, function(entry, i) {
+                        style_node(entry, "top", is_in);
+                    });
+                    dojo.forEach(scaffolds, function(entry, i) {
+                        style_node(entry, "height", is_in);
+                    });
+                    dojo.forEach(genes, function(entry, i) {
+                        style_node(entry, "height", is_in);
+                    });
+                    style_node(scaffold_wrapper, "height", is_in);
+                }
+                dojo.ready(function(){
+                    dojo.forEach(markers, function (entry, i) {
+                        dojo.connect(entry, "onclick", function () {
+                            window.location.href = "/poplar/ssrlocations/" + this.title;
+                        });
+                    });
+
+                    dojo.connect(dojo.byId("zoom_in"), "onclick", function() {
+                        zoom(true);
+                    });
+
+                    dojo.connect(dojo.byId("zoom_out"), "onclick", function() {
+                        zoom(false);
                     });
                 });
+
+
             </script>
         </div>
     </div>
