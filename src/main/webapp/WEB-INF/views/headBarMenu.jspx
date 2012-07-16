@@ -6,7 +6,7 @@
         <menu:item id="i_home" label="Home" url="/resources/static_page/index.html"/>
         <menu:item id="i_search" label="Search" url="/search?form"/>
         <menu:item id="i_blast" label="Blast" url="/blast"/>
-        <menu:item id="i_brower" label="Brower" url="/brower"/>
+        <menu:item id="i_browse" label="Browse" url="/browse"/>
         <menu:item id="i_help" label="Help" url="/"/>
     </menu:menu>
 </div>
