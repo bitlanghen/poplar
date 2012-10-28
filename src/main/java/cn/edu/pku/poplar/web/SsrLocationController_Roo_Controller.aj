@@ -18,6 +18,7 @@ import org.springframework.web.util.WebUtils;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.io.UnsupportedEncodingException;
+import java.util.regex.Pattern;
 
 privileged aspect SsrLocationController_Roo_Controller {
     
@@ -37,13 +38,19 @@ privileged aspect SsrLocationController_Roo_Controller {
         populateEditForm(uiModel, new SsrLocation());
         return "ssrlocations/create";
     }
-    
+
     @RequestMapping(value = "/{id}", produces = "text/html")
     public String SsrLocationController.show(@PathVariable("id") Long id, Model uiModel) {
         SsrLocation ssrLocation = SsrLocation.findSsrLocation(id);
+        ssrLocation.setSsr(Pattern.compile("(\\d+)").matcher(ssrLocation.getSsr()).replaceAll("<sub>$1</sub>"));
         uiModel.addAttribute("ssrlocation", ssrLocation);
         try{
+            Pic pic = Pic.findPicsByReferNameLike(ssrLocation.getUniGeneId()).getSingleResult();
+            if(pic != null) {
+                pic.setPicRepeat(Pattern.compile("(\\d+)").matcher(pic.getPicRepeat()).replaceAll("<sub>$1</sub>"));
+            }
             uiModel.addAttribute("pic", Pic.findPicsByReferNameLike(ssrLocation.getUniGeneId()).getSingleResult());
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -51,7 +58,6 @@ privileged aspect SsrLocationController_Roo_Controller {
         try{
             Transferbility transferbility =  Transferbility.findTransferbilitysByReferNameEquals(ssrLocation.getUniGeneId()).getSingleResult();
             if(transferbility == null) {
-
             } else {
                 uiModel.addAttribute("transferId", transferbility.getId());
             }

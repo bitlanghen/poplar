@@ -25,7 +25,7 @@
 
     <div id="_${fn:escapeXml(id)}_id">
       <label for="_${fn:escapeXml(field)}_id">
-        <c:out value="${label}" />
+        <em><c:out value="${label}" /></em>
         :
       </label>
       <div class="box" id="_${fn:escapeXml(id)}_${fn:escapeXml(field)}_id">
@@ -41,7 +41,7 @@
             </spring:escapeBody>
           </c:when>
           <c:otherwise>
-            <spring:eval expression="object[field]" />
+            <spring:eval expression="object[field]" htmlEscape="false" />
           </c:otherwise>
         </c:choose>
       </div>

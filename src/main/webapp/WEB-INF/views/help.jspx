@@ -15,11 +15,11 @@
             Data Source
         </h3>
         <p>
-            The aim of the Populus euphratica EST-SSR database (DesertPoplar EST-SSR db) is to provide a comprehensive
+            The aim of the <em>Populus euphratica</em> EST-SSR database (Euphrates Poplar EST-SSR DB) is to provide a comprehensive
             and useful resource of microsatellite markers for further studies of population genetics and Quantitative
             Traits Locus (QTL) analysis to this precious desert poplar tree. Currently, the database contains a catalog
             of 94,090 unigenes from which 4.1 % (4, 202 loci) have one or more SSR motifs. The location of all the SSR
-            were mapped on the  genome of P. trichocarpa Torr. &amp; A, the only poplar tree which has whole genome sequence.
+            were mapped on the  genome of Populus  trichocarpa Torr. &amp; A, the only poplar tree which has whole genome sequence.
             In addition, a total of 3070 EST-SSRs primers were designed from the 4202 loci, all the primer information and
             PCR conditions were presented on the database.
         </p>
@@ -37,9 +37,9 @@
         <p>
             All primer sequences, amplification condition, transferability information are being made available as a public service. These data can be freely downloaded and used for all research purpose. The only restriction is that the source of theses information should be cited as follows.
             For all the multiplex primers’ sequences and amplification information, please cite:
-            Xu F, Feng S.S., Du F.K.* and Wu RL. Two highly validated SSR multiplexes (8-plex) for the desert poplar, Populus euphratica (Salicaceae) (submitted to Molecular Ecology Resources)
+            Xu F, Feng S.S., Du F.K.* and Wu RL. Two highly validated SSR multiplexes (8-plex) for the desert poplar, <em>Populus euphratica</em> (Salicaceae) (submitted to Molecular Ecology Resources)
             For all the EST-SSR primer sequence and transferability information, please cite:
-            Du et al. Exploiting EST database for the development and characterization of EST-SSR markers in the desert poplar, Populus euphratica (Salicaceae) (In preparation)
+            Du et al. Exploiting EST database for the development and characterization of EST-SSR markers in the desert poplar, <em>Populus euphratica</em> (Salicaceae) (In preparation)
         </p>
         <h3 id="financial_support">Financial support</h3>
         <p>

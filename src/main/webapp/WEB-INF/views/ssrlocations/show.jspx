@@ -4,7 +4,7 @@
      xmlns:spring="http://www.springframework.org/tags" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_cn_edu_pku_poplar_domain_SsrLocation" object="${ssrlocation}" path="/ssrlocations" z="hHz6ntzmbeOf/yQT+QWATFRZaQM=">
+    <page:show create="false" delete="false" list="false" update="false" id="ps_cn_edu_pku_poplar_domain_SsrLocation" object="${ssrlocation}" path="/ssrlocations" z="hHz6ntzmbeOf/yQT+QWATFRZaQM=">
         <field:display field="uniGeneId" id="s_cn_edu_pku_poplar_domain_SsrLocation_uniGeneId" object="${ssrlocation}" z="7e0/tFJ885jR4AIj7G3YH0fpuwM="/>
         <field:display field="ssr" id="s_cn_edu_pku_poplar_domain_SsrLocation_ssr" object="${ssrlocation}" z="vY9xBi4ghvpEoH/Tj+9dUuAQoc8="/>
         <field:display field="locationInScaffold" id="s_cn_edu_pku_poplar_domain_SsrLocation_locationInScaffold" object="${ssrlocation}" z="2xAz7f9FlpKrFZGmWozs5eHNSLk="/>
@@ -16,7 +16,7 @@
         <field:display field="seqOfScaffold" id="s_cn_edu_pku_poplar_domain_SsrLocation_seqOfScaffold" object="${ssrlocation}" z="25kF4NLwrAeYeb3xTTrU9Ub7gZg="/>
         <field:display field="identify" id="s_cn_edu_pku_poplar_domain_SsrLocation_identify" object="${ssrlocation}" z="8TsJ0h1fd2fHpEDNkXx48BsE6pw="/>
     </page:show>
-    <page:show id="ps_cn_edu_pku_poplar_domain_Pic" label="Experimental validation" object="${pic}" path="/pics" z="1FmbgtAS5bWlIbZCL6sp9zzAxas=">
+    <page:show create="false" delete="false" list="false" update="false" id="ps_cn_edu_pku_poplar_domain_Pic" label="Experimental validation" object="${pic}" path="/pics" z="1FmbgtAS5bWlIbZCL6sp9zzAxas=">
         <field:display field="picRepeat" id="s_cn_edu_pku_poplar_domain_Pic_picRepeat" label="SSR motif" object="${pic}" z="aMP3su96uKniHL2IHD0w+pP21Lw="/>
         <field:display field="pic" id="s_cn_edu_pku_poplar_domain_Pic_pic" label="Polymorphism Information Content" object="${pic}" z="T3DLv4VcLfub4LnIigPzAOj6XoA="/>
         <field:display field="he" id="s_cn_edu_pku_poplar_domain_Pic_he" label="Expected Heterozygosity (HE)" object="${pic}" z="KM80SLgXQal7oEtM35IeTZbl7ko="/>
