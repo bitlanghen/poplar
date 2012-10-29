@@ -3,8 +3,6 @@
 
 package cn.edu.pku.poplar.domain;
 
-import cn.edu.pku.poplar.domain.Transferbility;
-
 privileged aspect Transferbility_Roo_JavaBean {
     
     public String Transferbility.getReferName() {
@@ -86,5 +84,17 @@ privileged aspect Transferbility_Roo_JavaBean {
     public void Transferbility.setPopulusEuphratica(String populusEuphratica) {
         this.populusEuphratica = populusEuphratica;
     }
-    
+
+    public String Transferbility.getPopulusSimonii() {
+        return "+";
+//        return this.populusSimonii;
+    }
+
+    public void Transferbility.setPopulusSimonii(String populusSimonii) {
+        if(populusSimonii == null || populusSimonii.equals("")) {
+            this.populusSimonii = "+";
+        } else {
+            this.populusSimonii = populusSimonii;
+        }
+    }
 }

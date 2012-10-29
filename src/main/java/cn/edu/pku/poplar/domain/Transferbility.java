@@ -28,4 +28,6 @@ public class Transferbility {
     private String populusPrninosa;
 
     private String populusEuphratica;
+
+    private String populusSimonii = "+";
 }

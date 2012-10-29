@@ -15,10 +15,11 @@
             <dt><field:display label="Populus tomentosa" field="populusTomentosa" id="s_cn_edu_pku_poplar_domain_Transferbility_populusTomentosa" object="${transferbility}" z="cLuauZp3n0/dDy8tb+DYqS2dBvU="/></dt>
             <dd style="margin-left: 5px;"><strong>Section Tacamahaca:</strong></dd>
             <dt><field:display label="Populus trichocarpa" field="populusTrichocarpa" id="s_cn_edu_pku_poplar_domain_Transferbility_populusTrichocarpa" object="${transferbility}" z="ue9Iu9nfDV0+xV2dQ69gWNZ+EIQ="/></dt>
-            <dt><field:display label="Populus simonii" field="populusEuphratica" id="s_cn_edu_pku_poplar_domain_Transferbility_populusEuphratica" object="${transferbility}" z="jkKsYvHvsy8PYY3TOBB4CtxwhZ8="/></dt>
             <dt><field:display label="Populus ussuriensis" field="populusUssuriensis" id="s_cn_edu_pku_poplar_domain_Transferbility_populusUssuriensis" object="${transferbility}" z="icH2ZZDNI5qNWpdKcPP0Fw/7eys="/></dt>
+            <dt><field:display label="Populus simonii" field="populusSimonii" id="s_cn_edu_pku_poplar_domain_Transferbility_populusSimonii" object="${transferbility}" z="icH2ZZDNI5qNWpdKcPP0Fw/7eys="/></dt>
             <dd style="margin-left: 5px;"><strong>Section Turanga:</strong></dd>
             <dt><field:display label="Populus prninosa" field="populusPrninosa" id="s_cn_edu_pku_poplar_domain_Transferbility_populusPrninosa" object="${transferbility}" z="Koqq9jmqA0KWhoy8REW/OzlsTR0="/></dt>
+            <dt><field:display label="Populus euphratica" field="populusEuphratica" id="s_cn_edu_pku_poplar_domain_Transferbility_populusEuphratica" object="${transferbility}" z="jkKsYvHvsy8PYY3TOBB4CtxwhZ8="/></dt>
             <dd></dd>
             <dt style="margin-left: 5px;">“+”indicate sucessfully amplified while “-” indicate failure of amplification.</dt>
         </dl>
